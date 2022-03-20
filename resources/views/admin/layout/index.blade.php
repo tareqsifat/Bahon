@@ -19,13 +19,12 @@
             </div>
 
             <!-- Navbar -->
-            {{-- @include('admin.include.nav') --}}
-            <navbar></navbar>
+            @include('admin.include.nav')
+            
             <!-- /.navbar -->
 
             <!-- Main Sidebar Container -->
-            {{-- @include('admin.include.sidebar') --}}
-            <sidebar></sidebar>
+            @include('admin.include.sidebar')
 
             <!-- Content Wrapper. Contains page content -->
             <div class="content-wrapper">
