@@ -17,12 +17,3 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Auth::routes();
-
-
-// Route::get('/chalok', 'Survice\DriverController@chalok');
-
-// Route::get('/admin','Admin\AdminController@index')->name('admin_index');
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
